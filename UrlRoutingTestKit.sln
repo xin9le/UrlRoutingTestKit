@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ED310A44-108C-4FB3-97BA-FDEB22B12877}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{F6C68F14-AEAD-46C4-9F34-14EC94326E00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{57B64A61-B63D-436D-8DFC-D68C39854D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlRoutingTestKit.NET40", "Source\NET40\UrlRoutingTestKit.NET40.csproj", "{67FD3EC0-E586-4791-B10D-690187A4E9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrlRoutingTestKit.NET45", "Source\NET45\UrlRoutingTestKit.NET45.csproj", "{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "Test\SampleApp\SampleApp.csproj", "{D396EEE4-0D8F-4B17-82FD-7E312689D939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp.Tests", "Test\SampleApp.Tests\SampleApp.Tests.csproj", "{1844E45B-7386-4487-8266-3001BD3EEB65}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs37
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\NET40\\UrlRoutingTestKit.NET40.csproj
+		SccProjectTopLevelParentUniqueName1 = UrlRoutingTestKit.sln
+		SccProjectName1 = Source/NET40
+		SccLocalPath1 = Source\\NET40
+		SccProjectUniqueName2 = Source\\NET45\\UrlRoutingTestKit.NET45.csproj
+		SccProjectTopLevelParentUniqueName2 = UrlRoutingTestKit.sln
+		SccProjectName2 = Source/NET45
+		SccLocalPath2 = Source\\NET45
+		SccProjectUniqueName3 = Test\\SampleApp.Tests\\SampleApp.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = UrlRoutingTestKit.sln
+		SccProjectName3 = Test/SampleApp.Tests
+		SccLocalPath3 = Test\\SampleApp.Tests
+		SccProjectUniqueName4 = Test\\SampleApp\\SampleApp.csproj
+		SccProjectTopLevelParentUniqueName4 = UrlRoutingTestKit.sln
+		SccProjectName4 = Test/SampleApp
+		SccLocalPath4 = Test\\SampleApp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67FD3EC0-E586-4791-B10D-690187A4E9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FD3EC0-E586-4791-B10D-690187A4E9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FD3EC0-E586-4791-B10D-690187A4E9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FD3EC0-E586-4791-B10D-690187A4E9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D396EEE4-0D8F-4B17-82FD-7E312689D939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D396EEE4-0D8F-4B17-82FD-7E312689D939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D396EEE4-0D8F-4B17-82FD-7E312689D939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D396EEE4-0D8F-4B17-82FD-7E312689D939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1844E45B-7386-4487-8266-3001BD3EEB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1844E45B-7386-4487-8266-3001BD3EEB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1844E45B-7386-4487-8266-3001BD3EEB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1844E45B-7386-4487-8266-3001BD3EEB65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67FD3EC0-E586-4791-B10D-690187A4E9C8} = {F6C68F14-AEAD-46C4-9F34-14EC94326E00}
+		{069CA9E7-F12E-4F28-8C1A-6BCA57BFA765} = {F6C68F14-AEAD-46C4-9F34-14EC94326E00}
+		{D396EEE4-0D8F-4B17-82FD-7E312689D939} = {57B64A61-B63D-436D-8DFC-D68C39854D00}
+		{1844E45B-7386-4487-8266-3001BD3EEB65} = {57B64A61-B63D-436D-8DFC-D68C39854D00}
+	EndGlobalSection
+EndGlobal
